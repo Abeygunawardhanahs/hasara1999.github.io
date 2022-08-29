@@ -1,0 +1,71 @@
+body{
+    background-color: rgba(218, 220, 147, 0.241);
+
+}
+ .box-a{
+    padding: 20% 40% 20% 30%;
+    margin: 20% 40% 25% 30%;
+ }   
+
+ header{
+    position:fixed;
+     top: 0; left: 40; 
+     z-index: 1000; 
+    height: 100%;
+    width: 30rem;
+    background-color: bisque;
+    display: flex;  
+    align-items: center; 
+    justify-content: center; 
+    flex-flow: column;
+    text-align: center;
+ }
+ header .user img{
+    height: 17rem;
+    width: 17rem;
+    border-radius: 45%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: .7rem ;
+ }
+
+ header .user .name{
+    font-size: 3.rem;
+
+ }
+ .box1 h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:azure;
+    /* float:inline-end;
+    position:inherit; */
+}
+.box1{
+    margin: auto;
+    padding:10px 30% 1% 20% ;
+    border:50px solid  rgba(133, 130, 130, 0.993);
+    border-width: 40px;
+    margin-left: 35%;
+    background-color: rgba(128, 128, 128, 0.615);
+}
+.box2{
+    margin: auto;
+    padding:0px 10% 40% 40% ; 
+    border:0;
+}
+.box2 p{
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(11, 9, 9);
+    float:inline-end;
+
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
